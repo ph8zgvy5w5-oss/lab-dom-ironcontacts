@@ -49,9 +49,16 @@ td {
   width: 200px;
 }
 
+#btn-add-random:hover {
+  transition: 0.2s;
+  background-color: #a9a7a7;  
+}
+
+
 /* Add a pseudo selector to animate button #btn-add-random when clicked, with confeti */
 #btn-add-random:active {
   background-color: #fd9a9a;
+
 }
 
 
